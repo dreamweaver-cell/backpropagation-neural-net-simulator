@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-   // Random training set for XOR -- two inputs and one output
+   // Random training set for XOR
 
    cout << "topology: 2 4 1" << endl;
    for (int i = 2000; i >= 0; --i) {

@@ -1,8 +1,4 @@
 //============================================================================
-// Name        : 
-// Author      :
-// Version     :
-// Copyright   :
 // Description : A basic (classic) backpropagation neural net simulator in C++, Ansi-style
 //============================================================================
 
