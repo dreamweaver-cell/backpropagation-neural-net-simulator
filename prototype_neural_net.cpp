@@ -52,14 +52,14 @@ int main()
 	topology.push_back(3);
 	topology.push_back(2);
 	topology.push_back(1);
-	Net myNet(topology);           // Instantiate object myNet, it takes topology of net as argument
+	Net aNet(topology);           // Instantiate object myNet, it takes topology of net as argument
 
 	vector<double> inputVals;
-	myNet.feedForward(inputVals);   // Constructor for training the net
+	aNet.feedForward(inputVals);   // Constructor for training the net
 
 	vector<double> targetVals;
-	myNet.backProp(targetVals);    // Tell the net what the values should be
+	aNet.backProp(targetVals);    // Tell the net what the values should be
 
 	vector<double> resultVals;
-	myNet.getResults(resultVals);  // After training store results
+	aNet.getResults(resultVals);  // After training store results
 }
